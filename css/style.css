@@ -64,5 +64,6 @@ footer.page-footer {
  */
 
 #nav-main {
-    display: none
+    display: none;
+    position: fixed;
 }
