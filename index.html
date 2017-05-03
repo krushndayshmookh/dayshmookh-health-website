@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <nav class="white" role="navigation">
+    <nav class="white" role="navigation" id="nav-main">
         <div class="nav-wrapper container">
             <a id="logo-container" href="#" class="brand-logo">Logo</a>
             <ul class="right hide-on-med-and-down">
@@ -44,6 +44,20 @@
         </div>
         <div class="parallax"><img src="images/background1.jpg" alt="Unsplashed background img 1"></div>
     </div>
+
+    <nav class="white" role="navigation" id="nav-dummy">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="#" class="brand-logo">Logo</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="#">Navbar Link</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#">Navbar Link</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
 
 
     <div class="container">
@@ -158,9 +172,10 @@
 
 
     <!--  Scripts-->
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/materialize.js"></script>
     <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
 
 </body>
 
