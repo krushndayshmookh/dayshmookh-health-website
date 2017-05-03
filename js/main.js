@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-$(document).ready(function () {
-    var bodyScrollTop = $("body").scrollTop();
-    //if (navDummyOffset.top < )
 
-=======
 //$(document).ready(function () {
 //   var bodyScrollTop = $("body").scrollTop();
 //if (navDummyOffset.top < )
@@ -19,5 +14,4 @@ $(window).scroll(function () {
     } else {
         $("#nav-main").css("display") = "none";
     }
->>>>>>> master/master
 });
