@@ -64,5 +64,10 @@ footer.page-footer {
  */
 
 #nav-main {
+<<<<<<< HEAD
     display: none
+=======
+    display: none;
+    position: fixed;
+>>>>>>> master/master
 }
